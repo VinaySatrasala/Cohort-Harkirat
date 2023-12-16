@@ -16,7 +16,7 @@ app.get("/health-checkup", function (req, res) {
     console.log(kidneyId);
     res.status(400).json({"msg": "Somethings up with your inputs2"})
     return
-  }
+  } 
   // do something with kidney here
   console.log(req.headers);
   res.json({
