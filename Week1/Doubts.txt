@@ -1,0 +1,15 @@
+Async
+
+let d = new Promise(function(resolve){
+    resolve("foo");
+});
+
+function callBack(){
+    console.log("Primise state : " + d);
+}
+
+console.log(d);
+d.then(callBack);
+
+
+in the above code resolve nothing but callBack so the fn that is defined is not a fn with arguments => how was that happened
