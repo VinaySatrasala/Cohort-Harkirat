@@ -9,7 +9,7 @@ function App() {
 
   // this expensiev operation run for every rerender for counter button -- we need store thre value
   let valc = useMemo(()=>{  
-    let c = 0;
+    let c = 100;
     for(let i = 1;i<=value;i++){
       c+=i;
     }},[value])
