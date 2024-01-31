@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        let timeout;
+        // Concept of debouncing
+        clearTimeout(timeout);
+        timeout = setTimeout(function (){
+            populateDiv();
+        },1000);
+
+        function populateDiv(){
+            const a = document.getElementById("firstnumber").value;
+            const b = document.getElementById("secondnumber").value;
+            document.getElementById("finalsum").innerHTML = (a+b);
+        }
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Num1"><br>
+    <input type="text" placeholder="Num2"><br> 
+    <button>CalculateSum</button>
+</body>
+</html>
