@@ -9,11 +9,16 @@ function App() {
       <CountContext.Provider value={count}>
         <Count setCount={setCount}></Count>
       </CountContext.Provider>
+      <br />
+      <br />
     </div>
   )
 }
+// !Problem 1:Since count component nothing todo with count varible but it is re-rendering --> solution : state managent tools
+
 
 function Count({setCount}){
+  console.log("re");
   return(
     <div>
       <CountRenderer/>

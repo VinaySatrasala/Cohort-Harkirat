@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/",(req , res) =>{
-    res.send("vinay kumar");
+    res.send("https://kjmvpffc-5173.inc1.devtunnels.ms/");
 });
 
 app.post("/hello" , (req , res)=>{

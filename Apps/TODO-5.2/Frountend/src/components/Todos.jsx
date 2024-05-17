@@ -1,10 +1,11 @@
 
 `This component is used for rendering array passed as input
 that contain all the TODOS`;
-export function Todos({ todos }) {
+export function Todos(props) {
+  console.log(props);
   return (
     <div>
-      {todos.map(function (todo) {
+      {props.todos.map(function (todo) {
         return (
           <div>
             <h1>{todo.title}</h1>

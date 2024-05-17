@@ -3,6 +3,10 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "lottie-react-web": "^2.2.2",
+    "lottie-web": "^5.12.2",
+    "mongoose": "^8.2.3",
+    "react-lottie": "^1.2.4",
     "zod": "^3.22.4"
   }
 }
