@@ -11,9 +11,17 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
-model User{
+model log{
   id Int @id @default(autoincrement())
-  name String
+  level String
+  message String
+  meta Json
 }
+// enum Level{
+//   Info
+//   Warn
+//   Error
+// }

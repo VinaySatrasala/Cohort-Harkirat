@@ -1,5 +1,5 @@
 {
-  "name": "serverless-prisma",
+  "name": "prisma-serverless",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,8 +12,14 @@
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.5.2",
     "@cloudflare/workers-types": "^4.20241018.0",
+    "prisma": "^5.21.1",
     "typescript": "^5.5.2",
     "vitest": "2.0.5",
     "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "@prisma/extension-accelerate": "^1.2.1",
+    "prisma-serverless": "file:"
   }
 }

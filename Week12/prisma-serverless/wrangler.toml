@@ -1,8 +1,10 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "serverless-prisma"
+name = "prisma-serverless"
 main = "src/index.ts"
 compatibility_date = "2024-10-18"
 compatibility_flags = ["nodejs_compat"]
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYzI0ZDliNGMtMDhmMi00YmMxLTg1ZjctODBlYzU0NTM2ODYzIiwidGVuYW50X2lkIjoiNjFmYjJmZjM4YWU2NzAxNjE0OGNkZTg0YzM3M2QzZDZhZjEzZTY4ZjIxMzBkMTIwNDVmYWJkZjk5ZTNjYzVjZiIsImludGVybmFsX3NlY3JldCI6ImUzYzNhMThkLTAyZjktNGIwMy04MzM3LWI4NGI4OTNmZTA1OSJ9.77Hl03kT_0OjOMyGvw2WUF82T6bY4HBq2kkcEdNyAnA"
 
 # Workers Logs
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
