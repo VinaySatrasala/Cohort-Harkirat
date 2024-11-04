@@ -1,3 +1,6 @@
 [submodule "Week11"]
 	path = Week11
 	url = git@github.com:VinaySatrasala/Week-11.git
+[submodule "Week13/blogging-website"]
+	path = Week13/blogging-website
+	url = git@github.com:VinaySatrasala/blogging-website.git
