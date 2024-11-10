@@ -1,5 +1,5 @@
 {
-  "name": "bind-mounts",
+  "name": "react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "novel": "^0.5.0",
+    "@repo/ui": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
